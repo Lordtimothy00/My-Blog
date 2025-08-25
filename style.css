@@ -258,3 +258,105 @@ h1{
     display: flex;
     justify-content: space-between;
 }
+/* == Mobile Responsive == */
+@media (max-width: 600px) {
+  body {
+    padding: 0 10px; 
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .container-1 {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  
+  h1, h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .container-1 h2 {
+    font-size: 1.6rem; 
+  }
+
+  .containerpara {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  
+  .Project1, .project2, .project3 {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .Project1 img,.project2 img,.project3 img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin: 0 auto;
+  } 
+  .posts {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .posts h2 {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+ 
+  .Newsletter {
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .butt {
+    width: 100%;
+  }
+
+
+  footer .footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
